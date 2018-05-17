@@ -607,7 +607,7 @@ void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filenam
             save_image(im, outfile);
         }
         else{
-            save_image(im, "predictions");
+            //save_image(im, "predictions");
 #ifdef OPENCV
             cvNamedWindow("predictions", CV_WINDOW_NORMAL); 
             if(fullscreen){
